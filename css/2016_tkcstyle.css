@@ -1,0 +1,122 @@
+@charset "utf-8";
+*{margin: 0;padding: 0}
+*:focus { outline: none; }/*黃框消除*/
+*{-webkit-text-size-adjust:none;}/*字體尺寸限制解除*/
+a{text-decoration:none;cursor: pointer}
+img {border:0px; } /*圖片超連結邊框消除*/
+ul { margin: 0; padding: 0;}
+li{ list-style-type:none; margin: 0; padding: 0;}
+body {
+	margin: 0px;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	font-family: Century Gothic,"微軟正黑體";
+	background-color: #8fdbd2;
+	background-image: url(../images/1944_spring_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center 45px;
+}
+html { margin: 0; padding: 0; height: 100%;  }
+/**/
+#b1 {position: relative; left: 50%;margin-left:-572px; width:1144px;}
+#b2 {position: relative; width:1144px; top:0; }
+.copyR{font-size: 14px; height: 20px; color: #FFFFFF;   text-align: center; padding-top: 10px;width: 100%; margin: 20px auto 0px auto; background: #000;padding-bottom: 5px; }
+
+#toptitle{ position:relative; height:500px;}
+
+
+#shopmain {	width: 1144px;overflow: hidden;}
+
+.CommonVitemList2{width: 1144px;float: left;text-align: center;	overflow: hidden;} 
+
+
+
+
+
+
+
+/*title*/
+.protitle{
+	margin-top:20px;
+	background-image: url(../images/title.png);
+	width:1144px;
+	height:115px;
+	cursor:pointer;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #254322;
+	font-weight: 200;
+	font-size:45px;
+	text-align:center;
+	line-height:130px
+	}
+	
+
+.item_main{
+	width:1144px;
+	height:340px;
+	background-color:#3f6953;
+
+	}
+
+
+
+/*小品-1*/
+.item_box {
+	position: relative;
+	background-color: #254322;
+	width: 220px;
+	float: left;
+	text-align: center;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 7px;
+	cursor: pointer;
+}
+.item_box_bg {position: relative;background-color: #fff;width: 96%;	margin: 0 2% 2% 2%;float: left;text-align: center;}
+.item_title_txt {position: relative;width: 97%;float: left;text-align: center;	color: #FFFFFF;	font-size: 15px;height: 40px;overflow: hidden;	margin: 2px;padding:2px;}
+.item_img {	position: relative;	text-align: center;	margin: 2px; border-bottom:2px solid #CCC;}
+.item_img  img{	margin: 2px auto;height: 185px;	width: 185px;}
+
+.item_text_link {height: 30px;line-height: 30px;font-size: 15px;	background-color: #254322;	color: #FFF8A0;	font-weight: bolder;float: left;	width: 100%;}
+.item_box:hover {background-color: #95ede5;}
+.item_box:hover .item_title_txt { color:#254322; font-weight:bold; }
+.item_box:hover .item_text_link {background-color: #265954;	color: #FFFFFF;	font-weight: bold;}
+
+.item_text02 { font-size:13px; line-height:18px;color:#000; font-weight:bold;padding:3px 0 3px 0; height:15px; float:left; overflow:hidden; width:100%;}
+.item_text03 {font-size: 18px;line-height: 16px;padding: 3px 0 3px 0;	color: #da0c38;	font-weight: bold;	float: left;width: 100%;}
+.item_text03 span{ font-size:13px; }
+.item_text04 {font-size: 18px;line-height: 16px;padding: 3px 0 3px 0;	color: #da0c38;	font-weight: bold;float: left;width: 100%;}
+.item_text04 span{ font-size:13px; }
+
+/*浮動選單*/
+.btnBox{
+	position: fixed;
+	width: 100px;
+	height: 300px;
+	margin: 50px 0px 0px 580px;
+	left: 50%;
+	z-index: 1;
+	bottom: 50px;
+	color: #1d3c5f;
+	font-weight: bold;
+	line-height: 100px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-image: url(../images/button_bk.png);
+	text-align: center;
+}
+
+.btnBox .btnbox01{display: block;width: 100px;height: 0px;margin-top: 50px;background:url(../images/button.png) ;background-repeat: no-repeat;background-position: 0 ;
+}
+
+.btnBox .btnbox02{display: block;width:100px; height:50px;margin-top:0px;background:url(../images/button.png) 0 -50px no-repeat;}
+
+.btnBox .btnbox03{display: block;width:100px; height:50px;margin-top:0px;background:url(../images/button.png) 0 -100px no-repeat;}
+
+.btnBox .btnbox04{display: block;width:100px; height:50px;margin-top:0px;background:url(../images/button.png) 0 -150px no-repeat;}
+
+.btnBox .btnbox05{display: block;width:100px; height:50px;margin-top:0px;background:url(../images/button.png) 0 -200px no-repeat;}
+
+.btnBox .top{display:block; width:100px; height:50px; margin:1px 0 1px 0;opacity: 0;filter: alpha(opacity=0);background:url(../images/button.png) }
