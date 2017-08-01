@@ -1,0 +1,68 @@
+li{
+display: inline-block;
+}
+
+
+.title{
+width: 1100px;
+margin: auto 0;
+}
+
+
+.bt_1{
+  width: 175px;
+  height: 43px;	
+  background-image: url(../images/download.png);
+}
+
+
+
+
+.bt_1:hover{
+  width: 175px;
+  height: 43px;	
+  background: url(../images/download.png) 0px -43px no-repeat; 
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+
+.bt_2{
+  width: 175px;
+  height: 43px;	
+  background: url(../images/download.png) -174px -174px ;
+}
+
+
+
+
+.bt_2:hover{
+  width: 175px;
+  height: 43px;	
+  background: url(../images/download.png) -174px -217px ; 
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.bt_3{
+  width: 175px;
+  height: 43px;	
+  background: url(../images/download.png) -348px -348px ;
+}
+
+
+
+
+.bt_3:hover{
+  width: 175px;
+  height: 43px;	
+  background: url(../images/download.png) -348px -391px ; 
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
